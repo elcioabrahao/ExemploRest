@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+	<class name="br.usjt.arqdsis.exemplorest.model.Usuario" table="usuario">
+		<id name="id" type="long" column="id">
+			<generator class="increment" />
+		</id>
+		<property name="nome" type="string">
+			<column name="nome" />
+		</property>
+		<property name="idade" type="integer">
+			<column name="idade" />
+		</property>
+		<property name="email" type="string">
+			<column name="email" />
+		</property>
+		<property name="senha" type="string">
+			<column name="senha" />
+		</property>
+
+	</class>
+</hibernate-mapping>
