@@ -8,7 +8,7 @@ Para os testes do WEBSERVICES use:
 
 http://127.0.0.1:8080/exemplorest/rest/usuario (PUT e POST) ID=0 faz insert, qualquer outro ID faz update
 http://127.0.0.1:8080/exemplorest/rest/usuario/todos (GET)
-http://127.0.0.1:8080/exemplorest/rest/usuario/deletar/<<ID>> (DELETE)
+http://127.0.0.1:8080/exemplorest/rest/usuario/deletar/iddoregistro (DELETE) substituir iddoregistro pelo id desejado
 
 Os campos são:
 
