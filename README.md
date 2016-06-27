@@ -6,9 +6,9 @@ Suporta os verbos: get, post, put e delete, nos formatos de FORMLÁRIO: POST e P
 
 Para os testes do WEBSERVICES use: 
 
-http://<<server>>:8080/exemplorest/rest/usuario (PUT e POST) ID=0 faz insert, qualquer outro ID faz update
-http://<<server>>:8080/exemplorest/rest/usuario/todos (GET)
-http://<<server>>:8080/exemplorest/rest/usuario/deletar/<<ID>> (DELETE)
+http://127.0.0.1:8080/exemplorest/rest/usuario (PUT e POST) ID=0 faz insert, qualquer outro ID faz update
+http://127.0.0.1:8080/exemplorest/rest/usuario/todos (GET)
+http://127.0.0.1:8080/exemplorest/rest/usuario/deletar/<<ID>> (DELETE)
 
 Os campos são:
 
