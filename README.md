@@ -2,7 +2,7 @@
 
 Exemplo de Jersey 2 + Jackson + Hibernate 4 RESTFull WebServices utilizando MAVEN
 
-Suporta os verbos: get, post, put e delete, nos formatos de FORMLARIO: POST e PUT e URL para PUT e DELETE
+Suporta os verbos: get, post, put e delete, nos formatos de FORMLÁRIO: POST e PUT e URL para PUT e DELETE
 
 Para os testes do WEBSERVICES use: 
 
@@ -18,6 +18,7 @@ idade
 email
 senha
 
-Não foi implementada segurança. O projeto tem como padrão Java 1.8. O projeto foi criado com o Maven Archetye para WebApp.
+Não foi implementada segurança. O projeto tem como padrão Java 1.8. O projeto foi criado com o Maven Archetype para WebApp.
+Este projeto tem como objetivo demosntrar somente os Webservices e não utiliza Spring, porem pode-se acrescentar o Spring caso necessário.
 
 
