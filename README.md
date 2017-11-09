@@ -1,6 +1,7 @@
 # ExemploRest (Projeto feito no Eclipse MARs)
 
 Exemplo de Jersey 2 + Jackson + Hibernate 4 RESTFull WebServices utilizando MAVEN
+Linha adicionada em 09/11/2017
 
 Suporta os verbos: get, post, put e delete, nos formatos de FORMLÁRIO: POST e PUT e URL para PUT e DELETE
 
